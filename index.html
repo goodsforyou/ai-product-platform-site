@@ -28,6 +28,12 @@
     .release-note{margin-top:14px;color:var(--muted);font-size:14px;line-height:1.6}
     .release-meta{display:flex;gap:14px;flex-wrap:wrap;margin-top:16px;color:var(--muted);font-size:14px}
     .release-meta span{border:1px solid var(--line);border-radius:999px;padding:7px 10px}
+    .link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:18px}
+    .link-card{display:block;background:rgba(17,24,45,.78);border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none;color:var(--text)}
+    .link-card strong{display:block;margin-bottom:7px}
+    .link-card span{color:var(--muted);font-size:14px;line-height:1.5}
+    .footer-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:16px}
+    .footer-links a{color:var(--muted);text-decoration:none}
     section{padding:42px 0}
     h2{font-size:30px;margin-bottom:22px}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
@@ -46,6 +52,7 @@
       <nav>
         <a href="#features">기능</a>
         <a href="#download">다운로드</a>
+        <a href="#customer">회원</a>
         <a href="#case">활용 사례</a>
       </nav>
     </header>
@@ -59,8 +66,9 @@
           승인 관리와 회원·라이선스 운영을 하나의 데스크톱 환경에서 연결하는 자동화 플랫폼입니다.
         </p>
         <div class="actions">
-          <a class="btn primary" href="#features">기능 살펴보기</a>
+          <a class="btn primary" href="https://auth.nexwear.kr/go/register?source=website&medium=product_site&campaign=beta013">Beta 회원가입</a>
           <a class="btn download" href="https://github.com/goodsforyou/ai-product-platform-site/releases/download/v0.1.3-beta/AI-PRODUCT-PLATFORM-Setup-0.1.3.exe">Windows Beta 다운로드</a>
+          <a class="btn secondary" href="https://auth.nexwear.kr/customer/login">로그인</a>
           <a class="btn secondary" href="https://nexwear.co.kr" target="_blank" rel="noopener">NEXWEAR 보기</a>
         </div>
         <p class="release-note">Windows 10/11 · Beta 0.1.3 · 현재 코드 서명 미적용<br>설치 시 Windows SmartScreen에서 보호 경고 또는 ‘알 수 없는 게시자’ 안내가 표시될 수 있습니다.</p>
@@ -90,6 +98,19 @@
         </div>
       </section>
 
+      <section id="customer">
+        <h2>회원·고객지원</h2>
+        <p class="lead">Beta 회원가입부터 로그인, 요금 안내와 고객지원까지 고객 포털에서 확인할 수 있습니다.</p>
+        <div class="link-grid">
+          <a class="link-card" href="https://auth.nexwear.kr/go/register?source=website&medium=product_site&campaign=beta013"><strong>회원가입</strong><span>Beta 이용을 위한 계정을 만듭니다.</span></a>
+          <a class="link-card" href="https://auth.nexwear.kr/customer/login"><strong>로그인</strong><span>기존 계정으로 고객 포털에 접속합니다.</span></a>
+          <a class="link-card" href="https://auth.nexwear.kr/customer/pricing"><strong>요금 안내</strong><span>현재 제공 중인 플랜과 이용 조건을 확인합니다.</span></a>
+          <a class="link-card" href="https://auth.nexwear.kr/customer/support"><strong>고객지원</strong><span>이용 중 문의와 지원 정보를 확인합니다.</span></a>
+          <a class="link-card" href="https://auth.nexwear.kr/customer/privacy"><strong>개인정보 처리 안내</strong><span>회원 정보 처리 기준을 확인합니다.</span></a>
+          <a class="link-card" href="https://auth.nexwear.kr/customer/terms"><strong>이용약관</strong><span>서비스 이용 조건을 확인합니다.</span></a>
+        </div>
+      </section>
+
       <section id="features">
         <h2>주요 기능</h2>
         <div class="grid">
@@ -116,6 +137,12 @@
       <strong>AI PRODUCT PLATFORM</strong>
       <small>운영: 태현로직스 · 개발: 장태현</small>
       <small>Commerce: nexwear.co.kr</small>
+      <div class="footer-links">
+        <a href="https://auth.nexwear.kr/customer/support">고객지원</a>
+        <a href="https://auth.nexwear.kr/customer/privacy">개인정보 처리 안내</a>
+        <a href="https://auth.nexwear.kr/customer/terms">이용약관</a>
+        <a href="https://auth.nexwear.kr/customer/refund-policy">환불 및 취소 정책</a>
+      </div>
     </footer>
   </div>
 </body>
