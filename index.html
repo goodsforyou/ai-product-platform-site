@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI PRODUCT PLATFORM</title>
+  <meta name="description" content="AI 콘텐츠 생성부터 승인과 게시까지 하나의 데스크톱 환경에서 관리하는 자동화 플랫폼" />
+  <style>
+    :root{
+      --bg:#0b1020; --panel:#11182d; --text:#f5f7fb; --muted:#aab4c7;
+      --accent:#68e0b8; --line:#24304d;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,"Noto Sans KR",sans-serif;background:linear-gradient(180deg,#0b1020,#0e1426);color:var(--text)}
+    .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+    header{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid var(--line)}
+    .brand{font-weight:800;letter-spacing:.4px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:20px}
+    .hero{padding:88px 0 64px}
+    .eyebrow{color:var(--accent);font-weight:700;margin-bottom:14px}
+    h1{font-size:clamp(38px,6vw,72px);line-height:1.06;margin:0 0 22px}
+    .lead{font-size:20px;line-height:1.7;color:var(--muted);max-width:760px}
+    .actions{margin-top:34px;display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:14px 20px;border-radius:12px;text-decoration:none;font-weight:700}
+    .primary{background:var(--accent);color:#07130f}
+    .secondary{border:1px solid var(--line);color:var(--text)}
+    section{padding:42px 0}
+    h2{font-size:30px;margin-bottom:22px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{background:rgba(17,24,45,.78);border:1px solid var(--line);border-radius:16px;padding:22px}
+    .card h3{margin-top:0}
+    .card p{color:var(--muted);line-height:1.65}
+    .case{border-left:4px solid var(--accent)}
+    footer{padding:38px 0 54px;color:var(--muted);border-top:1px solid var(--line);margin-top:34px}
+    small{display:block;margin-top:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">AI PRODUCT PLATFORM</div>
+      <nav>
+        <a href="#features">기능</a>
+        <a href="#case">활용 사례</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow">AI AUTOMATION DESKTOP PLATFORM</div>
+        <h1>콘텐츠 생성부터 승인·게시까지<br>한 곳에서 관리하세요.</h1>
+        <p class="lead">
+          AI PRODUCT PLATFORM은 AI 콘텐츠 생성, Threads 게시 워크플로우,
+          승인 관리와 회원·라이선스 운영을 하나의 데스크톱 환경에서 연결하는 자동화 플랫폼입니다.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#features">기능 살펴보기</a>
+          <a class="btn secondary" href="https://nexwear.co.kr" target="_blank" rel="noopener">NEXWEAR 보기</a>
+        </div>
+      </section>
+
+      <section id="features">
+        <h2>주요 기능</h2>
+        <div class="grid">
+          <div class="card"><h3>AI 콘텐츠 생성</h3><p>목적에 맞는 콘텐츠 초안을 생성하고 검토 흐름으로 연결합니다.</p></div>
+          <div class="card"><h3>승인 기반 워크플로우</h3><p>초안을 바로 공개하지 않고 승인 단계를 거쳐 안전하게 운영합니다.</p></div>
+          <div class="card"><h3>Threads 자동화</h3><p>Threads 운영에 필요한 콘텐츠 준비와 게시 흐름을 데스크톱 앱에서 관리합니다.</p></div>
+          <div class="card"><h3>회원·라이선스 관리</h3><p>회원 인증과 사용 권한을 제품 운영 흐름과 연결합니다.</p></div>
+        </div>
+      </section>
+
+      <section id="case">
+        <h2>실제 활용 방향</h2>
+        <div class="card case">
+          <h3>NEXWEAR 커머스 마케팅 실증</h3>
+          <p>
+            실제 쇼핑몰 상품을 대상으로 AI 콘텐츠 생성과 SNS 홍보 흐름을 적용하고,
+            향후 유입·클릭·판매 데이터를 제품 사례로 축적하는 방향으로 운영합니다.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <strong>AI PRODUCT PLATFORM</strong>
+      <small>운영: 태현로직스 · 개발: 손수민</small>
+      <small>Commerce: nexwear.co.kr</small>
+    </footer>
+  </div>
+</body>
+</html>
